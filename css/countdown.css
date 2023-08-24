@@ -1,39 +1,26 @@
-.countdown-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-   
-}
 
-.big-text {
-    font-size: 50px;
-    line-height: 1;
-    margin: 1rem 2rem;
-
-
-}
-
-.countdown-el {
+  .countdown {
     text-align: center;
-  
-}
-
-.countdown-el span {
-    font-size: 1.3rem;
-}
-#days{
- font-size:30px;
-}
-#hours{
-    font-size:30px;
-   }
-   #mins{
-    font-size:30px;
-   }
-   #seconds{
-    font-size:30px;
-   }
-
+    border-radius: 8px;
+    padding: 40px;
+  }
+  .countdown h2 {
+    margin-top: 0;
+    font-size: 1.5rem;
+  }
+  .hours {
+    font-size: 35px;
+  }
+  .minutes{
+    font-size: 35px;
+  }
+  .seconds{
+    font-size: 35px;
+  }
+  .subtext {
+    font-size: 12px;
+    color: white;
+  }
 
 /* (B) GALLERY WRAPPER */
 .gallery {
