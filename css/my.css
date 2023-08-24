@@ -979,10 +979,10 @@ margin: 12px auto 0;
         }
         
         @-webkit-keyframes pulse {
-          0% { box-shadow: 0 0 -10px #c4a300; }
-          40% { box-shadow: 0 0 20px #c4a300; }
-          60% { box-shadow: 0 0 20px #c4a300; }
-          100% { box-shadow: 0 0 -10px #c4a300; }
+          0% { box-shadow: 0 0 -10px rgb(117,218,180); }
+          40% { box-shadow: 0 0 20px rgb(117,218,180); }
+          60% { box-shadow: 0 0 20px rgb(117,218,180); }
+          100% { box-shadow: 0 0 -10px rgb(117,218,180); }
   }
   .cursor{
     position: fixed;
