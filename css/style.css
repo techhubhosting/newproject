@@ -51,9 +51,10 @@
  }
  
  p {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Source Sans 3', sans-serif;
   font-weight: 400;
   font-size: 16px;
+  color: #C6C6C6;
  }
  
  /*---------- --------------
@@ -740,7 +741,7 @@
  
  .case-study .content h4 {
    padding-bottom: 13px;
-   font-family: 'Montserrat', sans-serif;
+   font-family: 'Source Sans 3', sans-serif;
    font-size: 18px;
    text-transform: uppercase;
    color: white;
