@@ -1,3 +1,8 @@
+var cursor = document.querySelector(".cursor");
+    var cursor2 = document.querySelector(".cursor2");
+    document.addEventListener("mousemove",function(e){
+      cursor.style.cssText = cursor2.style.cssText = "left: " + e.clientX + "px; top: " + e.clientY + "px;";
+    });
 const buttons = document.querySelectorAll('.faq-toggle');
 
 
@@ -8,37 +13,8 @@ buttons.forEach((button) =>{
     })
 })
 
-const hoursEl = document.getElementById("hours");
-const minsEl = document.getElementById("mins");
-const secondsEl = document.getElementById("seconds");
-
-const newYears = "31 Dec 2023 18:00:00 GMT+0300";
-
-function countdown() {
-    const newYearsDate = new Date(newYears);
-    const currentDate = new Date();
-
-    const totalSeconds = (newYearsDate - currentDate) / 1000;
 
 
-    const hours = Math.floor(totalSeconds / 3600) % 24;
-    const mins = Math.floor(totalSeconds / 60) % 60;
-    const seconds = Math.floor(totalSeconds) % 60;
-
-
-    hoursEl.innerHTML = formatTime(hours);
-    minsEl.innerHTML = formatTime(mins);
-    secondsEl.innerHTML = formatTime(seconds);
-}
-
-function formatTime(time) {
-    return time < 10 ? `0${time}` : time;
-}
-
-// initial call
-countdown();
-
-setInterval(countdown, 1000);
 
 window.onload = () => {
     for (let i of document.querySelectorAll(".gallery img")) {

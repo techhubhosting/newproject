@@ -10,6 +10,7 @@
  @import url("https://fonts.googleapis.com/css?family=Lora:400,700|Playfair+Display:400,400i,700,700i,900,900i|Poppins:300,400,500,600,700|Roboto:300,400,500,700");
  /* Global Body Style */
  body {
+  cursor: pointer;
    color: #272A31;
    background: #fff;
    font-family: 'Montserrat', sans-serif;
@@ -97,15 +98,18 @@
  
  /* Themefisher Button effect */
  .btn-main {
-   border-radius: 0px;
+   border-radius: 5px;
    background:rgb(117,218,180);
    border-color:rgb(117,218,180);
    font-family: "Montserrat", sans-serif;
-   font-weight: 700;
+   font-weight: 900;
    letter-spacing: 1px;
    padding: 10px 20px;
    transition: 0.5s;
-   font-size: 11.5px;
+   font-size: 9px;
+   color: white;
+   box-shadow: 0 0 10px rgb(117,218,180), 0 0 20px rgb(117,218,180), 0 0 30px rgb(117,218,180);
+   
  }
  
  .btn-main:hover, .btn-main:focus {

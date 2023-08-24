@@ -1,11 +1,3 @@
-.contact-h1{font-size:30px;}
-.link-color{color: green;}
-.feature-logos{height: 1000px;width: 100px;}
-.ntv{height: 300px;width: 150px;}
-.youtube-logo{height: 300px;
-width: 200px;}
-.ubc{height: 300px;width: 200px;}
-.youtube-channel{width: 50px}
 .logo-edit{height: 60px;width: 90px;}
 .img-edit{
 	 margin: 0 auto;
@@ -81,7 +73,7 @@ text-align: center;
 }
 .read{
 	border-radius: 50px;
-	border-color: blue;
+	border-color: rgb(117,218,180);
 	background: white;
 }
 .img-content{
@@ -973,3 +965,57 @@ margin: 12px auto 0;
           display: none;
         }
       }
+      .enroll {
+        -webkit-animation-name: pulse;
+        -webkit-animation-duration: 3s;
+        -webkit-animation-iteration-count: infinite;
+        }
+        
+        .enroll:hover {
+        cursor:pointer;
+        -webkit-animation-name: pulse;
+        -webkit-animation-duration: .8s;
+        -webkit-animation-iteration-count: infinite;
+        }
+        
+        @-webkit-keyframes pulse {
+          0% { box-shadow: 0 0 -10px #c4a300; }
+          40% { box-shadow: 0 0 20px #c4a300; }
+          60% { box-shadow: 0 0 20px #c4a300; }
+          100% { box-shadow: 0 0 -10px #c4a300; }
+  }
+  .cursor{
+    position: fixed;
+    width: 30px;
+    height: 30px;
+    border: 1px solid rgb(117,218,180);
+    border-radius: 50%;
+    left: 0;
+    top: 0;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    transition: .1s;
+  }
+  
+  .cursor2{
+    position: fixed;
+    width: 5px;
+    height: 5px;
+    background-color: rgb(117,218,180);
+    border-radius: 50%;
+    left: 0;
+    top: 0;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    transition: .15s;
+  }
+  
+  .content:hover ~ .cursor{
+    transform: translate(-50%, -50%) scale(1.0);
+    background-color: rgb(117,218,180);
+    opacity: .5;
+  }
+  
+  .content:hover ~ .cursor2{
+    opacity: 0;
+  }
