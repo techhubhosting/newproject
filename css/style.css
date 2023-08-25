@@ -99,19 +99,25 @@
  
  /* Themefisher Button effect */
  .btn-main {
+  display: inline-block;
    border-radius: 5px;
    background:rgb(117,218,180);
    border-color:rgb(117,218,180);
    font-family: "Montserrat", sans-serif;
-   font-weight: 900;
+   font-weight: 700;
    letter-spacing: 1px;
    padding: 10px 20px;
    transition: 0.5s;
-   font-size: 9px;
-   color: white;
+   font-size: 14px;
+   color: #1D1D1D;
    box-shadow: 0 0 10px rgb(117,218,180), 0 0 20px rgb(117,218,180), 0 0 30px rgb(117,218,180);
    
  }
+ @media (max-width: 768px) {
+  .btn {
+    font-size: 10px; /* Adjust this value for smaller screens */
+  }
+}
  
  .btn-main:hover, .btn-main:focus {
    color:rgb(117,218,180);
@@ -632,8 +638,9 @@
  }
  
  .footer-nav li {
-   padding: 0 22px;
-   display: inline-block;
+  padding: 0 22px;
+  display: inline-block;
+  font-family: 'Source Sans 3', sans-serif;
  }
  
  .footer-nav li:first-child {

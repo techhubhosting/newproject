@@ -616,12 +616,12 @@ section {
 /* Section 5 - Hover Effect #05 */
 
 .section-5 .figure {
-  height: 200px;
+  height: 150px;
   border-radius: 10px;
 }
 
 .section-5 .figure img {
-  height: 200px;
+  height: 150px;
   max-width: 100%;
   position: relative;
   opacity: 10;
@@ -1046,3 +1046,4 @@ margin: 12px auto 0;
       filter: blur(0);
       transform: translateX(0);
       }
+      
